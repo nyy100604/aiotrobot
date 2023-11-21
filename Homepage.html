@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- //主要放置有關此網站的metadata -->
+  <!-- metadata意旨解釋網站的資料 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- 此專案css主要採用tailwindcss進行配置 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AIOT ROBOT</title>
+  </head>
+
+  <!-- 網頁內容著要放置於body中 -->
+  <body class="container h-[100vh] w-full mx-auto bg-slate-900 text-lg">
+    <div class="flex h-[90%] flex-col items-center justify-center">
+      <!-- img中的 src屬性 放置欲呈現的圖片檔 -->
+      <img src="./images/aiotrobot.png" class="w-[30%]" alt="aiotrobot" />
+      <div>
+        <!-- anchor tag中的 href屬性 放置不同的html檔，點擊後即跳轉至此頁面 -->
+        <a href="./robot.html">
+          <button
+            class="px-4 py-2 text-white font-black text-[1.5rem] bg-lime-600 hover:bg-lime-600/90 active:scale-105 duration-200 rounded-2xl"
+          >
+            開始學習
+          </button></a
+        >
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
